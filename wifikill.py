@@ -49,7 +49,7 @@ def get_lan_ip():
   return ip[0]
 
 def printdiv():
-  print '--------------------'
+  print ('--------------------')
 
 # Check for root
 if os.geteuid() != 0:
@@ -120,7 +120,7 @@ while refreshing:
       exit()
     
     if not input_is_valid:
-      print 'Please enter a valid choice'
+      print ('Please enter a valid choice')
 
 # Once we have a valid choice, we decide what we're going to do with it
 if choice.isdigit():
